@@ -1,0 +1,39 @@
+.cooking {
+	.rec {
+		background: $blue_light;
+		margin:0;
+		min-width: 80vw;
+	}
+	color: #FFF;
+	.basket{
+		background: $blue;
+		padding: 2.2% 5%;
+		p {
+			margin-bottom: 0;
+			text-align: center;
+			margin-top: 10px;
+			font-size: 1.7em;
+		}
+		i {
+			margin: 7px 25%;
+		}
+		max-width:20vw;
+	}
+	.recipies {
+		background: $blue_light;
+		margin:0;
+		padding: 0;
+		min-wdith: 100%;
+		img {
+			max-width:250px;
+			margin-top: 7%;
+			margin-left: 20%;
+		}
+		p {
+			line-height: 105%;
+			margin-bottom: 10px;
+			margin-top: 5px;
+			margin-left: 20%;
+		}
+	}
+}

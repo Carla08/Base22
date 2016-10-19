@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+
+}
+body {
+	background: #FFF;
+	
+}
+.container {
+	min-width: 100vw;
+}
+
+/*COLORS*/
+$green: #A3BA05;
+$green-light: #E9FA77;
+$blue: #00A6A6;
+$blue-light: #4DCACA;
+
+@mixin background_img ($img_path){
+	background-image: url($img_path);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+}
+
+@import '_nav.scss';
+@import '_firstpage.scss';
+@import '_cooking.scss';
+@import '_specials.scss';
+@import '_restaurants.scss';

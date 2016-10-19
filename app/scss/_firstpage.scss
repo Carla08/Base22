@@ -1,0 +1,168 @@
+@mixin background_img ($img_path){
+	background-image: url($img_path);
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: contain;
+}
+
+.firstpage {
+	.mobile {
+		display: none;
+	}
+	.chefpic {
+		min-width: 70%;
+		min-height: 70vh;
+		margin-left: 15%;
+		margin-bottom: 0;
+	}
+	.chefname {
+		margin: 0 10%;
+		margin-top: 0;
+		padding-top: 0;
+		h1 {
+			text-align: center;
+			border-top-style: solid;
+			border-top-color: $blue; 
+      color: $blue;
+		}
+		p {
+			padding: 0;
+			text-align: center;
+		}
+	}
+	.circle {
+		padding-top: 15%;
+		padding-left: 10%;
+		position: relative;
+	}
+	img {
+		max-height: 50px;
+		max-width: 50px;
+	}
+	.blank {
+		max-height: 10%;
+		max-width: 10%;
+	}
+	.newsletter {
+		margin-left: 10%;
+		margin-top: -20px;
+		p {
+			margin-left: -20px;
+		}
+	}
+	.shop {
+		margin-top: -20px;
+		margin-left: -10%;
+		p {
+			padding-left: 10px;
+		}
+	}
+	.read {
+		margin-right: -5%;
+		margin-top: 20px;
+	}
+	.more {
+		@include background_img("../images/add.png");
+		min-height: 40px;
+		margin-left: -10%;
+		margin-top: 7%;
+	}
+	.twitter {
+		margin-left: 7%;
+		margin-top: 20px;
+	}
+	.watch {
+		margin-left: 17%;
+	}
+	.outer-circle {
+		position:absolute;
+    	background: rgba(163, 186, 5, .6);
+    	border-radius: 50%;
+    	height:500px;
+    	width:500px;
+    	margin-top: -12%;
+    	margin-left: -12%;
+    	max-width: 80%;
+    	max-height: 100%;
+    	z-index: -1;
+	}
+	.inner-circle { 
+	    position: relative;
+    	background: #FFF;
+    	border-radius: 50%;
+    	height:30%;
+    	width:30%;
+    	margin-top:30%;
+    	margin-left: 35%;
+	}
+	@media screen and (max-width: 1100px) {
+  		.inner-circle{
+  			height: 30%;
+  			width:35%;
+  			margin-left: 32%;
+  		}
+  	}
+  	@media screen and (max-width: 1000px){
+  		img {
+  			max-height: 35px;
+  			max-width: 35px;
+  		}
+  		.watch {
+  			margin-top: 3%;
+  		}
+  		.shop {
+  			margin-left: -10%;
+  			margin-top: -2%;
+  		}
+  		.newsletter {
+  			margin-top: -2%;
+  		}
+  		.chefpic {
+  			min-width: 100%;
+  			margin-left: 5%;
+  		}
+
+  	}
+  	@media screen and (max-width: 900px){
+  		img {
+  			max-height: 30px;
+  			max-width: 30px;
+  		}
+  		.watch {
+  			margin-top: 3%;
+  		}
+  		.shop {
+  			margin-left: -7%;
+  			margin-top: -2%;
+  		}
+  		.newsletter {
+  			margin-top: -3%;
+  			margin-left: 7%;
+  		}
+  		.inner-circle {
+  			max-height: 25%;
+  			margin-top: 35%;
+  		}
+  		.outer-circle {
+  			margin-top: -15%;
+  			min-height: 100%;
+  			min-width: 70%;
+  		}
+  		.more {
+  			margin-top: 3%;
+  		}
+  		.chefpic {
+  			min-width: 100%;
+  			margin-left: 5%;
+  		}
+
+  	}
+  	@media screen and (max-width: 800px){
+  		.show {
+  			display: none;
+  		}
+  		.mobile {
+  			display: inline;
+  		}
+  	}
+}

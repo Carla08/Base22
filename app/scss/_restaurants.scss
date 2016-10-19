@@ -1,0 +1,62 @@
+.restaurants {
+	.rec {
+		background: $green_light;
+		margin:0;
+		max-width: 80vw;
+		min-width: 80vw;
+	}
+	h3 {
+		font-size: 1.3em;
+		margin:10px 20% 0 20%;
+		padding:0;
+	}
+	color: #333;
+	.forks{
+		color: #FFF;
+		background: $green;
+		padding: 2.2% 0%;
+		p {
+			margin-bottom: 0;
+			text-align: center;
+			margin-top: 10px;
+			font-size: 1.7em;
+		}
+		i {
+			margin: 8.5% 42%;
+		}
+		min-width:5vw;
+		max-width:20vw;
+		margin:0;
+	}
+	.res {
+		background: $green_light;
+		margin:0;
+		padding: 0;
+		min-wdith: 100%;
+		img {
+			max-width:250px;
+			margin-top: 3%;
+			margin-left: 20%;
+			display: flex;
+
+		}
+		p {
+			line-height: 105%;
+			margin-bottom: 10px;
+			margin-top: 5px;
+			margin-left:20%;
+		}
+	}
+	.desc {
+		display: flex;
+		background: rgba(0,0,0,.7);
+		color: #FFF;
+		position: absolute;
+		margin-top: -4.5%;
+		margin-left: 60px;
+		max-width: inherit;
+		p {
+			display: inline;
+		}
+	}
+}

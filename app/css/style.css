@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #FFF; }
+
+.container {
+  min-width: 100vw; }
+
+/*COLORS*/
+.nav {
+  background: #A3BA05;
+  color: #FFF;
+  max-height: 50px;
+  min-width: 100vw;
+  padding-top: 20px; }
+  .nav ul {
+    margin-left: 20%; }
+  .nav li {
+    display: inline;
+    padding: 20px; }
+  .nav .logo {
+    padding-left: 20px; }
+    .nav .logo .leaf {
+      margin-top: -5px;
+      margin-right: -10%;
+      display: inline; }
+      .nav .logo .leaf img {
+        max-height: 70px;
+        max-width: 70px;
+        display: inline; }
+    .nav .logo h3 {
+      margin-top: -10px; }
+
+.firstpage .mobile {
+  display: none; }
+
+.firstpage .chefpic {
+  min-width: 70%;
+  min-height: 70vh;
+  margin-left: 15%;
+  margin-bottom: 0; }
+
+.firstpage .chefname {
+  margin: 0 10%;
+  margin-top: 0;
+  padding-top: 0; }
+  .firstpage .chefname h1 {
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #00A6A6;
+    color: #00A6A6; }
+  .firstpage .chefname p {
+    padding: 0;
+    text-align: center; }
+
+.firstpage .circle {
+  padding-top: 15%;
+  padding-left: 10%;
+  position: relative; }
+
+.firstpage img {
+  max-height: 50px;
+  max-width: 50px; }
+
+.firstpage .blank {
+  max-height: 10%;
+  max-width: 10%; }
+
+.firstpage .newsletter {
+  margin-left: 10%;
+  margin-top: -20px; }
+  .firstpage .newsletter p {
+    margin-left: -20px; }
+
+.firstpage .shop {
+  margin-top: -20px;
+  margin-left: -10%; }
+  .firstpage .shop p {
+    padding-left: 10px; }
+
+.firstpage .read {
+  margin-right: -5%;
+  margin-top: 20px; }
+
+.firstpage .more {
+  background-image: url("../images/add.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 40px;
+  margin-left: -10%;
+  margin-top: 7%; }
+
+.firstpage .twitter {
+  margin-left: 7%;
+  margin-top: 20px; }
+
+.firstpage .watch {
+  margin-left: 17%; }
+
+.firstpage .outer-circle {
+  position: absolute;
+  background: rgba(163, 186, 5, 0.6);
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  margin-top: -12%;
+  margin-left: -12%;
+  max-width: 80%;
+  max-height: 100%;
+  z-index: -1; }
+
+.firstpage .inner-circle {
+  position: relative;
+  background: #FFF;
+  border-radius: 50%;
+  height: 30%;
+  width: 30%;
+  margin-top: 30%;
+  margin-left: 35%; }
+
+@media screen and (max-width: 1100px) {
+  .firstpage .inner-circle {
+    height: 30%;
+    width: 35%;
+    margin-left: 32%; } }
+
+@media screen and (max-width: 1000px) {
+  .firstpage img {
+    max-height: 35px;
+    max-width: 35px; }
+  .firstpage .watch {
+    margin-top: 3%; }
+  .firstpage .shop {
+    margin-left: -10%;
+    margin-top: -2%; }
+  .firstpage .newsletter {
+    margin-top: -2%; }
+  .firstpage .chefpic {
+    min-width: 100%;
+    margin-left: 5%; } }
+
+@media screen and (max-width: 900px) {
+  .firstpage img {
+    max-height: 30px;
+    max-width: 30px; }
+  .firstpage .watch {
+    margin-top: 3%; }
+  .firstpage .shop {
+    margin-left: -7%;
+    margin-top: -2%; }
+  .firstpage .newsletter {
+    margin-top: -3%;
+    margin-left: 7%; }
+  .firstpage .inner-circle {
+    max-height: 25%;
+    margin-top: 35%; }
+  .firstpage .outer-circle {
+    margin-top: -15%;
+    min-height: 100%;
+    min-width: 70%; }
+  .firstpage .more {
+    margin-top: 3%; }
+  .firstpage .chefpic {
+    min-width: 100%;
+    margin-left: 5%; } }
+
+@media screen and (max-width: 800px) {
+  .firstpage .show {
+    display: none; }
+  .firstpage .mobile {
+    display: inline; } }
+
+.cooking {
+  color: #FFF; }
+  .cooking .rec {
+    background: #4DCACA;
+    margin: 0;
+    min-width: 80vw; }
+  .cooking .basket {
+    background: #00A6A6;
+    padding: 2.2% 5%;
+    max-width: 20vw; }
+    .cooking .basket p {
+      margin-bottom: 0;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1.7em; }
+    .cooking .basket i {
+      margin: 7px 25%; }
+  .cooking .recipies {
+    background: #4DCACA;
+    margin: 0;
+    padding: 0;
+    min-wdith: 100%; }
+    .cooking .recipies img {
+      max-width: 250px;
+      margin-top: 7%;
+      margin-left: 20%; }
+    .cooking .recipies p {
+      line-height: 105%;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      margin-left: 20%; }
+
+.specials h1 {
+  font-size: 1.7em;
+  padding: 20px;
+  margin-top: 2%;
+  margin-bottom: 0; }
+
+.specials .spc h2 {
+  font-size: 1.3em;
+  padding: 15px;
+  color: #00A6A6;
+  min-height: 80px;
+  margin-bottom: 0; }
+
+.specials .spc img {
+  padding-left: 15px; }
+
+.specials .spc p {
+  font-size: .9em;
+  padding: 10px; }
+
+.restaurants {
+  color: #333; }
+  .restaurants .rec {
+    background: #E9FA77;
+    margin: 0;
+    max-width: 80vw;
+    min-width: 80vw; }
+  .restaurants h3 {
+    font-size: 1.3em;
+    margin: 10px 20% 0 20%;
+    padding: 0; }
+  .restaurants .forks {
+    color: #FFF;
+    background: #A3BA05;
+    padding: 2.2% 0%;
+    min-width: 5vw;
+    max-width: 20vw;
+    margin: 0; }
+    .restaurants .forks p {
+      margin-bottom: 0;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1.7em; }
+    .restaurants .forks i {
+      margin: 8.5% 42%; }
+  .restaurants .res {
+    background: #E9FA77;
+    margin: 0;
+    padding: 0;
+    min-wdith: 100%; }
+    .restaurants .res img {
+      max-width: 250px;
+      margin-top: 3%;
+      margin-left: 20%;
+      display: flex; }
+    .restaurants .res p {
+      line-height: 105%;
+      margin-bottom: 10px;
+      margin-top: 5px;
+      margin-left: 20%; }
+  .restaurants .desc {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    position: absolute;
+    margin-top: -4.5%;
+    margin-left: 60px;
+    max-width: inherit; }
+    .restaurants .desc p {
+      display: inline; }
